@@ -7,18 +7,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h1 class="bottom-space">OCCUPY WILL NEVER DIE -<br />BUT FOR NOW IT IS DISBANDED.</h1>
+          <h2 class="bottom-space">👉 DO NOT GIVE YOUR EMAIL TO ANYONE PURPORTING TO BE 'OCCUPY'</h2>
+          <h2 class="bottom-space">👉 DO NOT DONATE TO ANYONE PURPORTING TO BE 'OCCUPY'</h2>
+          <h1>OCCUPY DOES LIVE ON -<br />BUT ONLY IN OUR HEARTS AND MINDS.</h1>
         </header>
       </div>
     );

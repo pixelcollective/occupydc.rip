@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'occupyregular';
+  src: url('assets/occupy-regular-webfont.woff2') format('woff2'),
+       url('assets/occupy-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -9,6 +17,10 @@
 
 .App-header {
   background-color: #282c34;
+  background-image:url('./assets/images/odc-bg.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +28,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header * {
+  font-family: 'occupyregular';
 }
 
 .App-link {
